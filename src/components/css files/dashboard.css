@@ -1,0 +1,75 @@
+/* Container for the entire dashboard */
+.dashboard-container {
+    max-width: 1200px; /* Set a max width for the dashboard */
+    margin: 0 auto; /* Center the container */
+    padding: 20px; /* Add some padding */
+    font-family: Arial, sans-serif; /* Set a default font */
+}
+
+/* Heading styles */
+.dashboard-container h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    color: #333; /* Darker color for the heading */
+}
+
+.dashboard-container p {
+    font-size: 1.2em;
+    color: #666; /* Grey color for the paragraph */
+}
+
+/* Styles for the slider container */
+.slider-container {
+    margin: 20px 0; /* Margin for spacing above and below the slider */
+    border-radius: 10px; /* Rounded corners */
+    overflow: hidden; /* Prevent images from overflowing */
+}
+
+/* Image styles */
+.slider-container img {
+    width: 100%; /* Ensures full width of the slider */
+    height: 300px; /* Set a fixed height for all images */
+    object-fit: cover; /* Ensures images cover the container without distortion */
+}
+
+.slider-container img:hover {
+    transform: scale(1.05); /* Slightly scale up the image on hover */
+}
+
+/* Button styles */
+.product-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #9b7b2f;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    position: relative;
+}
+
+.product-button:hover {
+    background-color: #433411;
+}
+
+/* Margins for form group */
+.form-group {
+    margin-top: 20px; /* Space above the form group */
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .dashboard-container {
+        padding: 10px; /* Reduce padding on smaller screens */
+    }
+
+    .dashboard-container h1 {
+        font-size: 2em; /* Smaller heading on mobile */
+    }
+
+    .dashboard-container p {
+        font-size: 1em; /* Smaller paragraph on mobile */
+    }
+}
+

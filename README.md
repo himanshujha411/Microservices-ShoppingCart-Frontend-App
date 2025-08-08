@@ -23,6 +23,24 @@ This is the frontend application of **StackSplit**, a full-stack web application
    git clone https://github.com/himanshujha411/Microservices-ShoppingCart-Frontend-App.git
    cd Microservices-ShoppingCart-Frontend-App
 
+## 🔧 Prerequisites
+
+Before you begin, ensure you have the following installed on your machine:
+
+- [Node.js](https://nodejs.org/) (v20+ for frontend)
+- [Java JDK](https://adoptopenjdk.net/) (17 or higher)
+- [Maven](https://maven.apache.org/) (for backend builds)
+- [PostgreSQL](https://www.postgresql.org/) (set up databases per microservice)
+- [Git](https://git-scm.com/)
+
+⚠️ **Note:** Make sure all backend microservices are started and running before launching the frontend.
+
+### Optional (For Better Dev Experience)
+
+- [Postman](https://www.postman.com/) for testing APIs
+- [VS Code](https://code.visualstudio.com/) or IntelliJ IDEA
+
+
 ### Project Structure
 
 src/
